@@ -1,3 +1,15 @@
-<p>
-  header works!
-</p>
+<header>
+	<div class="container">
+		<div class="header-inner">
+			<a class="brand" routerLink="/">
+				<p>Justin's Loops</p>
+			</a>
+		</div>
+		<nav class="header-inner">
+			<a routerLink="/about">About</a>
+			<a routerLink="/mymusic">My Music</a>
+      <a routerLink="blogarchive">Archive</a>
+      <a (click)="openContact()">Contact</a>
+		</nav>
+	</div>
+</header>
