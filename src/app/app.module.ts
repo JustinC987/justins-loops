@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactArchiveComponent } from './contact/contact-archive/contact-archive.component';
 import { ContactModalComponent } from './contact/contact-modal/contact-modal.component';
 import { BlogArchiveComponent } from './blogs/blog-archive/blog-archive.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
 	declarations: [
@@ -23,7 +24,7 @@ import { BlogArchiveComponent } from './blogs/blog-archive/blog-archive.componen
 		ContactModalComponent,
 		BlogArchiveComponent
 	],
-	imports: [ BrowserModule ],
+	imports: [ BrowserModule, AppRoutingModule ],
 	providers: [],
 	bootstrap: [ AppComponent ]
 })
